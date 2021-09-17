@@ -1,9 +1,9 @@
 <?php
-$hote='phpmyadmin.exedesk.fr';
+$hote='localhost';
 $port='3306'; // MySQL
-$bd='EXE_6_youxn';  //On mettra instahess ou projetphoto
-$utilisateur='EXE_6_youxn';
-$mdp='3XP7XMxj7u(1NsgU';
+$bd='spectacles';  //On mettra instahess ou projetphoto
+$utilisateur='root';
+$mdp='';
 $dsn='mysql:dbname='.$bd.';host='.$hote.';port='. $port;
 
 try {
