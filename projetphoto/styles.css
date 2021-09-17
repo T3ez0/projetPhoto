@@ -1,0 +1,91 @@
+html, body{
+    margin:0;
+    padding:0;
+    background: #34495e;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index:99;
+    background-color: white;
+  }
+  
+.logo {
+    float: center;
+    border-right: 1px solid #bbb;
+ }
+  
+.logo a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+
+ div.card{
+    position : relative;
+    width:180px;
+    height : 250px;
+    float:left;
+    padding:10px;
+    margin : 10px;
+    background-color : var(--fondC);
+    box-shadow: 1px 1px 4px #bbb;
+}
+div.photoCard>img{
+    
+    position : relative;
+    top:-10px;
+    left : -10px;
+    max-width : 200px;
+    max-height: 140px;
+    
+}
+
+
+div.descrCard{
+    position : relative;
+    top:0px;
+}
+div.tagCard{
+    position:absolute;
+    bottom:10px;
+    width : 180px;
+    text-align: right;
+}
+
+#gauche {
+    float : left;
+    top:50px;
+    left:50px;
+    width:19%;
+    height:107.5%;
+    padding-top: 45px;
+    background-color: thistle;
+}
+
+#contenu {
+    background-color:#000;
+    text-align : center;
+    float :left;
+    padding-top: 30px;
+    left:50px;
+    width:60%;
+    height:100%;
+    color: #fff;
+}
+
+#droite {
+    float : right;
+    top:50px;
+    left:50px;
+    width:19%;
+    height:100%;
+    padding-top: 45px;
+    background-color: thistle;
+}
